@@ -40,15 +40,7 @@ Ensure that your dataset is in the correct format with two columns:
 text_query (Natural Language query)
 sql_command (Corresponding SQL query)
 
-## 4. Training the Model:
-Run the following Python script to train the model:
-python train_model.py
-
-## 5. Running the Model :
-Once the model is trained, run the following script to interactively generate SQL queries from natural language input:
-python generate_sql.py
-
-## 6. Acknowledgments
+## 4. Acknowledgments
 Hugging Face for the transformers library.
 PyTorch for the deep learning framework.
 The Spider dataset for text-to-SQL tasks.
